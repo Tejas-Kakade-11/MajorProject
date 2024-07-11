@@ -28,6 +28,9 @@ const userRouter  = require("./routes/user");
 
 
 const dbUrl = process.env.ATLASDB_URL;
+
+// let MONGO_URL = "mongodb://127.0.0.1:27017/wandarlust";
+
 main().then(()=>{
     console.log("connection success");
 })
